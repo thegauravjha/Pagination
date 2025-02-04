@@ -1,6 +1,7 @@
 .product-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .product {
@@ -18,4 +19,13 @@
 
 .pagination-container {
   text-align: center;
+}
+
+.pagination-button{
+  cursor: pointer;
+  margin: 3px;
+}
+
+.active-page{
+  background-color: aqua;
 }
